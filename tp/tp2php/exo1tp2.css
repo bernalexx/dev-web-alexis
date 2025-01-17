@@ -1,0 +1,44 @@
+
+header{
+    text-align: center;
+}
+
+.titre{
+    text-align: center;
+}
+.ctn-table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 7%;
+}
+
+table{
+    border: 2px solid black;
+    border-collapse: collapse;
+
+}
+
+table th{
+    background-color: cyan;
+}
+
+table td{
+    background-color: beige;
+}
+
+
+table th, td{
+    border: 2px solid black;
+    padding-right: 10%;
+
+}   
+
+.pagination.fixed-bottom {
+    bottom: 50px;
+    color: white;
+}
+
+.pagination a{
+    color: black;
+}
